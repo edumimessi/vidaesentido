@@ -148,6 +148,20 @@ blockquote { margin: 0 0 38px; padding-left: 26px; border-left: 2px solid var(--
 .author h2 { margin: 0 0 26px; font: 400 clamp(40px, 4vw, 60px)/1.05 Georgia, serif; letter-spacing: -.04em; color: var(--forest); }
 .author > div:last-child > p:not(.eyebrow) { max-width: 650px; font: 17px/1.78 Georgia, serif; color: #4e504a; }
 .author-note { border-top: 1px solid #c7bba6; padding-top: 22px; margin-top: 26px; font-style: italic !important; }
+.created-by { margin-top: 22px !important; font-family: var(--font-geist-sans), Arial, sans-serif !important; font-size: 12px !important; letter-spacing: .06em; text-transform: uppercase; color: var(--forest) !important; }
+
+.clinic-contact { background: var(--forest-dark); color: white; padding: 110px clamp(24px, 8vw, 128px); display: grid; grid-template-columns: .8fr 1.2fr; gap: 9vw; }
+.clinic-intro h2 { margin: 0 0 24px; font: 400 clamp(44px, 5vw, 72px)/1.02 Georgia, serif; letter-spacing: -.045em; }
+.clinic-intro > p:not(.eyebrow) { max-width: 480px; color: rgba(255,255,255,.7); font: 17px/1.75 Georgia, serif; }
+.clinic-intro .clinic-signature { margin-top: 32px; color: var(--gold) !important; font-family: var(--font-geist-sans), Arial, sans-serif !important; font-size: 10px !important; font-weight: 700 !important; letter-spacing: .22em; text-transform: uppercase; }
+.clinic-details { display: grid; grid-template-columns: 1.2fr .8fr; gap: 54px; align-items: start; }
+.clinic-links { border-top: 1px solid rgba(255,255,255,.18); }
+.clinic-links a { display: flex; justify-content: space-between; gap: 20px; padding: 22px 2px; border-bottom: 1px solid rgba(255,255,255,.18); font: 22px/1.2 Georgia, serif; transition: color .2s, padding .2s; }
+.clinic-links a:hover { color: #e2bb79; padding-left: 8px; }
+.clinic-links .contact-primary { color: #e2bb79; }
+.clinic-address { border-left: 1px solid rgba(255,255,255,.18); padding-left: 34px; }
+.clinic-address p { margin: 0 0 25px; color: rgba(255,255,255,.63); font-size: 13px; line-height: 1.7; }
+.clinic-address strong { display: inline-block; margin-bottom: 3px; color: white; font-size: 10px; letter-spacing: .13em; text-transform: uppercase; }
 
 footer { background: #081d32; color: rgba(255,255,255,.7); padding: 55px clamp(24px, 8vw, 128px); display: flex; justify-content: space-between; align-items: center; gap: 30px; font-size: 11px; }
 .footer-brand { color: white; }
@@ -166,6 +180,7 @@ footer { background: #081d32; color: rgba(255,255,255,.7); padding: 55px clamp(2
   .path-section { grid-template-columns: 1fr; gap: 50px; }
   .months { grid-template-columns: repeat(2, 1fr); }
   .author { grid-template-columns: 1fr 1.4fr; }
+  .clinic-contact { grid-template-columns: 1fr; gap: 48px; }
   footer { flex-wrap: wrap; }
 }
 
@@ -174,7 +189,7 @@ footer { background: #081d32; color: rgba(255,255,255,.7); padding: 55px clamp(2
   .hero { min-height: 690px; height: 100svh; padding-bottom: 55px; }
   .hero h1 { font-size: clamp(48px, 14vw, 68px); }
   .hero-copy { font-size: 16px; margin: 28px 0; }
-  .daily, .path-section, .archive, .author { padding: 82px 22px; }
+  .daily, .path-section, .archive, .author, .clinic-contact { padding: 82px 22px; }
   .daily-heading { align-items: flex-start; gap: 28px; flex-direction: column; }
   .date { font-size: 27px; }
   .meditation-card { grid-template-columns: 1fr; padding-top: 38px; }
@@ -188,6 +203,8 @@ footer { background: #081d32; color: rgba(255,255,255,.7); padding: 55px clamp(2
   .months { grid-template-columns: 1fr; }
   .author { grid-template-columns: 1fr; }
   .author-monogram { width: 240px; margin: 0 auto 20px; }
+  .clinic-details { grid-template-columns: 1fr; gap: 38px; }
+  .clinic-address { border-left: 0; border-top: 1px solid rgba(255,255,255,.18); padding: 28px 0 0; }
   footer { flex-direction: column; align-items: flex-start; }
 }
 
