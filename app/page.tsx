@@ -13,88 +13,88 @@ type Meditation = {
 
 const meditations: Meditation[] = [
   {
-    title: "A força de permanecer inteiro",
-    theme: "Ancestralidade e presença",
-    quote: "Quem conhece suas raízes não se perde quando o caminho muda.",
+    title: "Ancestralidade: sentido que atravessa o tempo",
+    theme: "Ancestralidade e continuidade",
+    quote: "Não começamos em nós mesmos: somos continuidade, memória e responsabilidade.",
     reflection: [
-      "Há dias em que a vida nos pede velocidade. A sabedoria ancestral, porém, recorda que nem todo avanço acontece depressa. A árvore cresce porque aprofunda primeiro as raízes — em silêncio, sem aplausos, sustentada pela terra.",
-      "Permanecer inteiro não significa resistir a toda mudança. Significa atravessá-la sem abandonar aquilo que dá sentido à nossa história: os valores recebidos, a dignidade construída e a responsabilidade por aqueles que caminham ao nosso lado.",
-      "Hoje, antes de buscar respostas distantes, volte-se por um instante para a sua origem. Talvez a orientação de que você precisa já esteja guardada na memória de quem veio antes.",
+      "Nas tradições afro-brasileiras, a ancestralidade não se limita à lembrança do passado. Ela é presença ética e espiritual: uma corrente que liga os que vieram antes, os que vivem agora e aqueles que ainda virão.",
+      "A Logoterapia reconhece que a vida ganha sentido quando percebemos nossa responsabilidade diante da história. Recebemos nomes, saberes, gestos e caminhos; não para repeti-los mecanicamente, mas para fazê-los florescer de modo singular.",
+      "Honrar os ancestrais é reconhecer que nossa existência participa de algo maior que o próprio instante. Cada escolha digna de hoje pode tornar-se força e orientação para outra geração.",
     ],
-    practice: "Reserve cinco minutos de silêncio. Recorde uma pessoa de sua família ou comunidade cuja vida lhe ensinou coragem. Escreva uma frase que resuma esse ensinamento e leve-a consigo durante o dia.",
-    prayer: "Que eu honre minhas raízes sem ficar preso ao passado. Que a memória dos que vieram antes fortaleça meus passos, e que minhas escolhas de hoje se tornem boa herança para os que virão.",
+    practice: "Recorde uma pessoa de sua família, comunidade ou linhagem espiritual cuja vida lhe ensinou coragem. Escreva o ensinamento recebido e escolha uma forma concreta de transmiti-lo adiante.",
+    prayer: "Que a memória dos que vieram antes fortaleça meus passos. Que eu honre minhas raízes sem ficar preso ao passado e transforme a herança recebida em cuidado para os que virão.",
   },
   {
-    title: "O tempo também trabalha",
-    theme: "Paciência e confiança",
-    quote: "A semente não se apressa, mas conhece o caminho da luz.",
+    title: "Axé: a força que põe a vida em movimento",
+    theme: "Axé e vontade de sentido",
+    quote: "A vida pede circulação: receber, cultivar e repartir a força que nos anima.",
     reflection: [
-      "Nem tudo o que parece parado está sem vida. Sob a terra, longe dos olhos, a semente rompe sua própria casca e começa a transformar-se. Há processos humanos que obedecem à mesma lei: primeiro amadurecem por dentro.",
-      "A impaciência costuma chamar de atraso aquilo que ainda está em formação. Quando respeitamos o tempo necessário, deixamos de violentar os ciclos e aprendemos a colaborar com eles.",
-      "Faça hoje o que lhe cabe, com cuidado e firmeza. Depois, permita que o tempo complete a parte que não está em suas mãos.",
+      "Axé é força vital, princípio de movimento e possibilidade. Ele não é uma posse individual e imóvel: circula nos encontros, nos gestos, na palavra, no cuidado com a natureza e na vida comunitária.",
+      "Na Logoterapia, a vontade de sentido nos orienta para algo ou alguém além de nós mesmos. Quando encontramos um para quê, a energia deixa de girar em vazio e passa a servir a uma direção.",
+      "Cultivar o axé também exige discernimento. Algumas relações, ambientes e hábitos fortalecem nossa capacidade de responder à vida; outros a enfraquecem. Reconhecer essa diferença é um ato de responsabilidade.",
     ],
-    practice: "Escolha uma preocupação que você tem tentado resolver à força. Anote qual é o seu próximo passo possível e qual parte precisa apenas de tempo.",
-    prayer: "Que eu reconheça o tempo certo das coisas. Dá-me serenidade para esperar, coragem para agir e sabedoria para não confundir pressa com caminho.",
+    practice: "Faça um pequeno mapa do seu axé: anote três pessoas, lugares ou atividades que renovam sua força e uma situação que a drena. Escolha hoje uma ação para nutrir o que lhe dá vida.",
+    prayer: "Que eu reconheça, preserve e compartilhe a força que sustenta a vida. Que meu axé encontre direção no serviço, na verdade e no bem que posso realizar.",
   },
   {
-    title: "Cuidar do chão comum",
-    theme: "Comunidade e responsabilidade",
-    quote: "Ninguém atravessa a vida verdadeiramente sozinho.",
+    title: "Egbé: eu sou porque nós somos",
+    theme: "Comunidade e autotranscendência",
+    quote: "A força individual amadurece quando encontra lugar no coletivo.",
     reflection: [
-      "A comunidade não é apenas o lugar onde recebemos amparo; é também o espaço onde aprendemos a oferecê-lo. Cada gesto de respeito fortalece o chão comum sobre o qual muitas vidas se apoiam.",
-      "Quando o individualismo estreita o olhar, o cuidado o alarga. Passamos a perceber a fome silenciosa, o cansaço não dito e a solidão escondida atrás das rotinas.",
-      "O sentido cresce quando a vida deixa de girar somente em torno de si mesma. Servir, escutar e partilhar são formas antigas — e sempre novas — de restaurar o mundo.",
+      "Egbé é mais que um agrupamento de pessoas. É comunidade viva, espaço de pertencimento, responsabilidade e circulação do axé. Cada pessoa possui um lugar, um dom e uma tarefa diante do conjunto.",
+      "A autotranscendência, conceito central de Viktor Frankl, recorda que o ser humano se realiza quando se dirige a uma causa, a uma obra ou a alguém que ama. A plenitude não nasce do fechamento em si, mas da relação.",
+      "Pertencer não significa perder a singularidade. Ao contrário: é oferecer ao coletivo aquilo que somente você pode realizar e permitir que a força da comunidade também sustente sua caminhada.",
     ],
-    practice: "Procure alguém que possa estar precisando de presença. Envie uma mensagem sincera, ofereça ajuda concreta ou simplesmente escute sem interromper.",
-    prayer: "Que minhas mãos não se fechem diante da necessidade alheia. Ensina-me a receber com humildade e a repartir com generosidade.",
+    practice: "Nomeie suas comunidades de pertencimento. Pergunte-se: o que recebo delas e qual contribuição somente eu posso oferecer neste momento? Realize um gesto concreto de reciprocidade.",
+    prayer: "Que eu encontre meu lugar sem me colocar acima de ninguém. Ensina-me a receber com humildade, repartir com generosidade e fortalecer o chão comum.",
   },
   {
-    title: "A palavra que levanta",
-    theme: "Verdade e cuidado",
-    quote: "A palavra tem peso: pode ferir o caminho ou abrir passagem.",
+    title: "A palavra que guarda e transmite",
+    theme: "Oralidade, verdade e responsabilidade",
+    quote: "A palavra carrega memória: pode ferir o caminho ou abrir passagem.",
     reflection: [
-      "Falar é um ato de responsabilidade. Depois de pronunciada, a palavra já habita o mundo e passa a tocar vidas que talvez nunca conheçamos por inteiro.",
-      "A verdade não precisa da crueldade para ser firme. Quando nasce do respeito, ela corrige sem humilhar, orienta sem dominar e preserva a dignidade de quem escuta.",
-      "Antes de responder hoje, faça uma pequena pausa. Pergunte se aquilo que dirá é verdadeiro, necessário e capaz de produzir algum bem.",
+      "Nas tradições de matriz africana, a oralidade preserva histórias, ensinamentos e modos de viver. A palavra liga gerações. Por isso, falar e escutar não são atos banais: são formas de cuidar da memória e da comunidade.",
+      "A Logoterapia compreende a responsabilidade como capacidade de responder às perguntas concretas que a vida apresenta. A palavra é uma dessas respostas; revela a atitude que escolhemos diante do outro.",
+      "A verdade não necessita de crueldade para ser firme. Quando nasce do respeito, ela corrige sem humilhar, orienta sem dominar e preserva a dignidade de quem escuta.",
     ],
     practice: "Escolha uma conversa importante e prepare-se para ela com três compromissos: ouvir até o fim, falar com clareza e preservar o respeito.",
     prayer: "Que minha voz seja firme sem ser áspera. Que eu saiba calar quando o silêncio protege e falar quando a verdade liberta.",
   },
   {
-    title: "Coragem para recomeçar",
-    theme: "Renovação e esperança",
-    quote: "Recomeçar não apaga a história; dá a ela uma nova direção.",
+    title: "O corpo também conhece caminhos",
+    theme: "Corporeidade e presença",
+    quote: "Há sentidos que a palavra explica; outros, o corpo primeiro reconhece.",
     reflection: [
-      "Todo recomeço carrega algo do caminho anterior. Levamos cicatrizes, aprendizados e nomes que não desejamos esquecer. Por isso, começar de novo não é voltar ao ponto zero.",
-      "A esperança madura não nega a dor. Ela olha para o que aconteceu e, ainda assim, escolhe não entregar o futuro ao passado.",
-      "Talvez você não possa mudar toda a paisagem hoje. Mas pode mudar a direção do próximo passo — e, às vezes, é assim que uma vida inteira se reorganiza.",
+      "A corporeidade ocupa lugar central nas tradições afro-brasileiras. O corpo canta, dança, ajoelha, trabalha, celebra e guarda memórias. Ele não é um obstáculo ao espírito, mas uma de suas formas de presença no mundo.",
+      "Também a busca de sentido precisa encarnar-se. Um valor apenas pensado permanece promessa; torna-se vida quando alcança as mãos, a postura, o ritmo dos dias e a maneira concreta de tratar as pessoas.",
+      "Escutar o corpo não significa obedecer a cada impulso. Significa reconhecer cansaços, forças, limites e possibilidades, para responder à existência com maior inteireza.",
     ],
-    practice: "Identifique algo que precisa de um novo começo. Dê hoje um passo pequeno e observável, mesmo que ainda não se sinta completamente pronto.",
-    prayer: "Que eu não seja prisioneiro dos meus tropeços. Concede-me humildade para aprender e força para começar novamente.",
+    practice: "Faça alguns minutos de respiração e movimento consciente. Observe onde há tensão e vitalidade. Depois, escolha um valor importante e pergunte: que gesto do meu corpo pode expressá-lo hoje?",
+    prayer: "Que meu corpo seja presença, instrumento de cuidado e morada de dignidade. Ensina-me a respeitar seus limites e a colocá-lo a serviço do que tem sentido.",
   },
   {
-    title: "O valor do silêncio",
-    theme: "Interioridade e escuta",
-    quote: "No silêncio, o coração deixa de competir com o ruído.",
+    title: "Circularidade: o tempo que retorna e ensina",
+    theme: "Tempo, memória e renovação",
+    quote: "Voltar não é repetir: é reencontrar o caminho com novos olhos.",
     reflection: [
-      "O excesso de barulho não vem apenas de fora. Há pensamentos, cobranças e temores que falam ao mesmo tempo e nos afastam daquilo que é essencial.",
-      "Silenciar não é fugir do mundo, mas reencontrar o centro a partir do qual podemos habitá-lo com mais verdade. É abrir espaço para que a consciência seja ouvida.",
-      "Algumas respostas não chegam como explicação. Chegam como clareza, serenidade e disposição para cumprir o dever que já conhecemos.",
+      "A circularidade do tempo, presente em muitas cosmovisões africanas e afro-brasileiras, integra passado, presente e futuro. A vida não avança como linha que abandona tudo para trás; ela retorna à memória para renovar o caminho.",
+      "Na busca de sentido, revisitar a própria história não precisa ser aprisionamento. Pode ser autodistanciamento: olhar o vivido de outra perspectiva, reconhecer o que permanece valioso e escolher uma nova atitude.",
+      "Há experiências que voltam porque ainda pedem elaboração. Quando acolhidas com consciência, deixam de ser repetição automática e tornam-se oportunidade de amadurecimento.",
     ],
-    practice: "Fique dez minutos sem telas, música ou conversa. Respire com calma e observe os pensamentos sem lutar contra eles. Ao final, anote apenas o que parece essencial.",
-    prayer: "Aquieta em mim o que é excesso. Que o silêncio devolva clareza ao meu olhar e mansidão às minhas escolhas.",
+    practice: "Recorde uma situação que parece repetir-se em sua vida. Pergunte: o que ela ainda tenta me ensinar? Que resposta diferente e responsável posso oferecer desta vez?",
+    prayer: "Que eu acolha os ciclos sem me tornar prisioneiro deles. Dá-me memória para aprender, liberdade para escolher e coragem para renovar o caminho.",
   },
   {
-    title: "Gratidão que se transforma em gesto",
-    theme: "Memória e generosidade",
-    quote: "A gratidão amadurece quando deixa o sentimento e alcança as mãos.",
+    title: "Natureza: morada do sagrado e do sentido",
+    theme: "Orixás, natureza e valores vivenciais",
+    quote: "Cuidar da natureza é reconhecer a vida como relação, presença e dádiva.",
     reflection: [
-      "Agradecer é reconhecer que nenhuma vida se constrói apenas com recursos próprios. Somos também feitos do cuidado recebido, das portas abertas e das presenças que nos sustentaram.",
-      "Mas a gratidão não termina na lembrança. Sua forma mais fecunda é fazer circular o bem. Aquilo que um dia nos alcançou pode, por nosso intermédio, alcançar outra pessoa.",
-      "Hoje, transforme uma lembrança agradecida em ação. A vida devolve sentido ao que recebemos quando escolhemos repartir.",
+      "Nas tradições afro-brasileiras, orixás, voduns e inquices expressam forças da natureza e dimensões da existência. A água, a mata, o fogo, o vento e a terra não são simples cenário: participam de uma realidade viva e sagrada.",
+      "Frankl chamou de valores vivenciais os sentidos realizados quando nos abrimos ao mundo — à beleza, ao encontro, ao amor e ao transcendente. Contemplar a natureza pode retirar-nos da hiperreflexão e devolver-nos ao pertencimento.",
+      "A reverência precisa alcançar o cuidado. Não há verdadeira espiritualidade quando se celebra o sagrado e se destrói sua casa. Preservar a vida ao redor é também responder pelo sentido da própria existência.",
     ],
-    practice: "Agradeça diretamente a alguém por um bem específico que essa pessoa lhe fez. Depois, realize um gesto de generosidade sem esperar reconhecimento.",
-    prayer: "Que eu não trate como comum aquilo que é dádiva. Faz da minha gratidão uma presença concreta na vida de alguém.",
+    practice: "Aproxime-se hoje de um elemento da natureza com atenção: uma árvore, água, terra, vento ou luz. Contemple sem pressa e realize um pequeno gesto concreto de preservação.",
+    prayer: "Que eu não trate como objeto aquilo que sustenta a vida. Ensina-me a reconhecer o sagrado na criação e a transformar reverência em cuidado.",
   },
 ];
 
@@ -167,7 +167,7 @@ export default function Home() {
         <div className="hero-content">
           <p className="eyebrow">DEVOCIONAL DIÁRIO</p>
           <h1>Raízes que sustentam.<br /><em>Sentido que conduz.</em></h1>
-          <p className="hero-copy">Uma pausa diária para cultivar presença, reverenciar a ancestralidade e encontrar propósito nas escolhas de cada dia.</p>
+          <p className="hero-copy">Uma pausa diária inspirada nas tradições afro-brasileiras e na Logoterapia para cultivar axé, honrar a ancestralidade e encontrar sentido nas escolhas de cada dia.</p>
           <a className="primary-button" href="#meditacao">Ler a reflexão de hoje <span aria-hidden="true">↓</span></a>
         </div>
         <p className="hero-side-note">Memória • Presença • Comunidade</p>
@@ -215,18 +215,18 @@ export default function Home() {
         <div className="section-intro">
           <p className="eyebrow gold">UM CAMINHO DE SENTIDO</p>
           <h2>Espiritualidade que<br />se torna presença.</h2>
-          <p>Estas meditações aproximam sabedoria ancestral, interioridade e responsabilidade cotidiana. Não oferecem respostas prontas: abrem espaço para uma vida mais consciente.</p>
+          <p>Estas meditações nascem do diálogo respeitoso entre Logoterapia e tradições afro-brasileiras. Ancestralidade, axé, egbé, corporeidade e natureza tornam-se caminhos de responsabilidade e sentido.</p>
         </div>
         <div className="pillars">
-          <article><span>01</span><h3>Reconhecer as raízes</h3><p>Honrar a história, a memória e aqueles que prepararam o caminho antes de nós.</p></article>
-          <article><span>02</span><h3>Habitar o presente</h3><p>Escutar a vida como ela se apresenta e responder com consciência às suas exigências.</p></article>
-          <article><span>03</span><h3>Servir à comunidade</h3><p>Transformar sentido em cuidado, responsabilidade e compromisso com o bem comum.</p></article>
+          <article><span>01</span><h3>Honrar a ancestralidade</h3><p>Reconhecer a continuidade entre passado, presente e futuro como fonte de responsabilidade.</p></article>
+          <article><span>02</span><h3>Cultivar e repartir o axé</h3><p>Identificar o que fortalece a vida e orientar essa força para valores e propósitos.</p></article>
+          <article><span>03</span><h3>Pertencer ao egbé</h3><p>Realizar a própria singularidade no cuidado, na reciprocidade e no serviço à comunidade.</p></article>
         </div>
       </section>
 
       <section className="archive" id="arquivo">
         <div className="archive-heading">
-          <div><p className="eyebrow dark">ARQUIVO DE MEDITAÇÕES</p><h2>Um ano para caminhar por dentro.</h2></div>
+          <div><p className="eyebrow dark">ARQUIVO DE MEDITAÇÕES</p><h2>Reflexões para caminhar por dentro.</h2></div>
           <p>Encontre a reflexão de uma data especial ou retome uma palavra que falou ao seu coração.</p>
         </div>
         <div className="months">
