@@ -13,35 +13,35 @@ type Meditation = {
 
 const meditations: Meditation[] = [
   {
-    title: "Ancestralidade: sentido que atravessa o tempo",
-    theme: "Ancestralidade e continuidade",
+    title: "Heranças que atravessam o tempo",
+    theme: "Memória e continuidade",
     quote: "Não começamos em nós mesmos: somos continuidade, memória e responsabilidade.",
     reflection: [
-      "Nas tradições afro-brasileiras, a ancestralidade não se limita à lembrança do passado. Ela é presença ética e espiritual: uma corrente que liga os que vieram antes, os que vivem agora e aqueles que ainda virão.",
+      "Nossa história não se limita à lembrança do passado. Ela forma uma corrente de experiências que liga os que vieram antes, os que vivem agora e aqueles que ainda virão.",
       "A Logoterapia reconhece que a vida ganha sentido quando percebemos nossa responsabilidade diante da história. Recebemos nomes, saberes, gestos e caminhos; não para repeti-los mecanicamente, mas para fazê-los florescer de modo singular.",
       "Honrar os ancestrais é reconhecer que nossa existência participa de algo maior que o próprio instante. Cada escolha digna de hoje pode tornar-se força e orientação para outra geração.",
     ],
-    practice: "Recorde uma pessoa de sua família, comunidade ou linhagem espiritual cuja vida lhe ensinou coragem. Escreva o ensinamento recebido e escolha uma forma concreta de transmiti-lo adiante.",
+    practice: "Recorde uma pessoa de sua família ou comunidade cuja vida lhe ensinou coragem. Escreva o ensinamento recebido e escolha uma forma concreta de transmiti-lo adiante.",
     prayer: "Que a memória dos que vieram antes fortaleça meus passos. Que eu honre minhas raízes sem ficar preso ao passado e transforme a herança recebida em cuidado para os que virão.",
   },
   {
-    title: "Axé: a força que põe a vida em movimento",
-    theme: "Axé e vontade de sentido",
+    title: "A força que põe a vida em movimento",
+    theme: "Vitalidade e vontade de sentido",
     quote: "A vida pede circulação: receber, cultivar e repartir a força que nos anima.",
     reflection: [
-      "Axé é força vital, princípio de movimento e possibilidade. Ele não é uma posse individual e imóvel: circula nos encontros, nos gestos, na palavra, no cuidado com a natureza e na vida comunitária.",
+      "A vitalidade que nos move não é uma posse individual e imóvel: ela se renova nos encontros, nos gestos, na palavra, no cuidado com a natureza e na vida comunitária.",
       "Na Logoterapia, a vontade de sentido nos orienta para algo ou alguém além de nós mesmos. Quando encontramos um para quê, a energia deixa de girar em vazio e passa a servir a uma direção.",
-      "Cultivar o axé também exige discernimento. Algumas relações, ambientes e hábitos fortalecem nossa capacidade de responder à vida; outros a enfraquecem. Reconhecer essa diferença é um ato de responsabilidade.",
+      "Cultivar essa força também exige discernimento. Algumas relações, ambientes e hábitos fortalecem nossa capacidade de responder à vida; outros a enfraquecem. Reconhecer essa diferença é um ato de responsabilidade.",
     ],
-    practice: "Faça um pequeno mapa do seu axé: anote três pessoas, lugares ou atividades que renovam sua força e uma situação que a drena. Escolha hoje uma ação para nutrir o que lhe dá vida.",
-    prayer: "Que eu reconheça, preserve e compartilhe a força que sustenta a vida. Que meu axé encontre direção no serviço, na verdade e no bem que posso realizar.",
+    practice: "Faça um pequeno mapa de sua vitalidade: anote três pessoas, lugares ou atividades que renovam sua força e uma situação que a drena. Escolha hoje uma ação para nutrir o que lhe dá vida.",
+    prayer: "Que eu reconheça, preserve e compartilhe a força que sustenta a vida. Que ela encontre direção no serviço, na verdade e no bem que posso realizar.",
   },
   {
-    title: "Egbé: eu sou porque nós somos",
+    title: "Pertencimento: eu sou porque nós somos",
     theme: "Comunidade e autotranscendência",
     quote: "A força individual amadurece quando encontra lugar no coletivo.",
     reflection: [
-      "Egbé é mais que um agrupamento de pessoas. É comunidade viva, espaço de pertencimento, responsabilidade e circulação do axé. Cada pessoa possui um lugar, um dom e uma tarefa diante do conjunto.",
+      "Uma comunidade é mais que um agrupamento de pessoas. É espaço vivo de pertencimento, responsabilidade e apoio mútuo. Cada pessoa possui um lugar, um dom e uma tarefa diante do conjunto.",
       "A autotranscendência, conceito central de Viktor Frankl, recorda que o ser humano se realiza quando se dirige a uma causa, a uma obra ou a alguém que ama. A plenitude não nasce do fechamento em si, mas da relação.",
       "Pertencer não significa perder a singularidade. Ao contrário: é oferecer ao coletivo aquilo que somente você pode realizar e permitir que a força da comunidade também sustente sua caminhada.",
     ],
@@ -53,7 +53,7 @@ const meditations: Meditation[] = [
     theme: "Oralidade, verdade e responsabilidade",
     quote: "A palavra carrega memória: pode ferir o caminho ou abrir passagem.",
     reflection: [
-      "Nas tradições de matriz africana, a oralidade preserva histórias, ensinamentos e modos de viver. A palavra liga gerações. Por isso, falar e escutar não são atos banais: são formas de cuidar da memória e da comunidade.",
+      "A palavra preserva histórias, ensinamentos e modos de viver. Ela liga gerações. Por isso, falar e escutar não são atos banais: são formas de cuidar da memória e da comunidade.",
       "A Logoterapia compreende a responsabilidade como capacidade de responder às perguntas concretas que a vida apresenta. A palavra é uma dessas respostas; revela a atitude que escolhemos diante do outro.",
       "A verdade não necessita de crueldade para ser firme. Quando nasce do respeito, ela corrige sem humilhar, orienta sem dominar e preserva a dignidade de quem escuta.",
     ],
@@ -65,7 +65,7 @@ const meditations: Meditation[] = [
     theme: "Corporeidade e presença",
     quote: "Há sentidos que a palavra explica; outros, o corpo primeiro reconhece.",
     reflection: [
-      "A corporeidade ocupa lugar central nas tradições afro-brasileiras. O corpo canta, dança, ajoelha, trabalha, celebra e guarda memórias. Ele não é um obstáculo ao espírito, mas uma de suas formas de presença no mundo.",
+      "O corpo canta, dança, trabalha, celebra e guarda memórias. Ele não é um obstáculo à busca de sentido, mas a forma concreta de nossa presença no mundo.",
       "Também a busca de sentido precisa encarnar-se. Um valor apenas pensado permanece promessa; torna-se vida quando alcança as mãos, a postura, o ritmo dos dias e a maneira concreta de tratar as pessoas.",
       "Escutar o corpo não significa obedecer a cada impulso. Significa reconhecer cansaços, forças, limites e possibilidades, para responder à existência com maior inteireza.",
     ],
@@ -77,7 +77,7 @@ const meditations: Meditation[] = [
     theme: "Tempo, memória e renovação",
     quote: "Voltar não é repetir: é reencontrar o caminho com novos olhos.",
     reflection: [
-      "A circularidade do tempo, presente em muitas cosmovisões africanas e afro-brasileiras, integra passado, presente e futuro. A vida não avança como linha que abandona tudo para trás; ela retorna à memória para renovar o caminho.",
+      "Nossa experiência do tempo integra passado, presente e futuro. A vida não avança como uma linha que abandona tudo para trás; ela retorna à memória para renovar o caminho.",
       "Na busca de sentido, revisitar a própria história não precisa ser aprisionamento. Pode ser autodistanciamento: olhar o vivido de outra perspectiva, reconhecer o que permanece valioso e escolher uma nova atitude.",
       "Há experiências que voltam porque ainda pedem elaboração. Quando acolhidas com consciência, deixam de ser repetição automática e tornam-se oportunidade de amadurecimento.",
     ],
@@ -85,16 +85,16 @@ const meditations: Meditation[] = [
     prayer: "Que eu acolha os ciclos sem me tornar prisioneiro deles. Dá-me memória para aprender, liberdade para escolher e coragem para renovar o caminho.",
   },
   {
-    title: "Natureza: morada do sagrado e do sentido",
-    theme: "Orixás, natureza e valores vivenciais",
+    title: "Natureza: presença e sentido",
+    theme: "Natureza e valores vivenciais",
     quote: "Cuidar da natureza é reconhecer a vida como relação, presença e dádiva.",
     reflection: [
-      "Nas tradições afro-brasileiras, orixás, voduns e inquices expressam forças da natureza e dimensões da existência. A água, a mata, o fogo, o vento e a terra não são simples cenário: participam de uma realidade viva e sagrada.",
+      "A água, a mata, o fogo, o vento e a terra não são simples cenário. A natureza sustenta nossa existência e nos recorda que a vida acontece em relação.",
       "Frankl chamou de valores vivenciais os sentidos realizados quando nos abrimos ao mundo — à beleza, ao encontro, ao amor e ao transcendente. Contemplar a natureza pode retirar-nos da hiperreflexão e devolver-nos ao pertencimento.",
-      "A reverência precisa alcançar o cuidado. Não há verdadeira espiritualidade quando se celebra o sagrado e se destrói sua casa. Preservar a vida ao redor é também responder pelo sentido da própria existência.",
+      "A admiração precisa alcançar o cuidado. Reconhecer a beleza da vida e destruir o ambiente que a sustenta é uma contradição. Preservar a vida ao redor é também responder pelo sentido da própria existência.",
     ],
     practice: "Aproxime-se hoje de um elemento da natureza com atenção: uma árvore, água, terra, vento ou luz. Contemple sem pressa e realize um pequeno gesto concreto de preservação.",
-    prayer: "Que eu não trate como objeto aquilo que sustenta a vida. Ensina-me a reconhecer o sagrado na criação e a transformar reverência em cuidado.",
+    prayer: "Que eu não trate como objeto aquilo que sustenta a vida. Ensina-me a transformar admiração em cuidado e responsabilidade.",
   },
 ];
 
@@ -155,6 +155,7 @@ export default function Home() {
           <a href="#caminho" onClick={() => setMenuOpen(false)}>O caminho</a>
           <a href="#arquivo" onClick={() => setMenuOpen(false)}>Arquivo</a>
           <a href="#autor" onClick={() => setMenuOpen(false)}>Sobre o autor</a>
+          <a href="#contato" onClick={() => setMenuOpen(false)}>Clínica Mimessi</a>
         </nav>
       </header>
 
@@ -167,7 +168,7 @@ export default function Home() {
         <div className="hero-content">
           <p className="eyebrow">DEVOCIONAL DIÁRIO</p>
           <h1>Raízes que sustentam.<br /><em>Sentido que conduz.</em></h1>
-          <p className="hero-copy">Uma pausa diária inspirada nas tradições afro-brasileiras e na Logoterapia para cultivar axé, honrar a ancestralidade e encontrar sentido nas escolhas de cada dia.</p>
+          <p className="hero-copy">Uma pausa diária inspirada na Logoterapia e na experiência humana para cultivar presença, reconhecer valores e encontrar sentido nas escolhas de cada dia.</p>
           <a className="primary-button" href="#meditacao">Ler a reflexão de hoje <span aria-hidden="true">↓</span></a>
         </div>
         <p className="hero-side-note">Memória • Presença • Comunidade</p>
@@ -214,13 +215,13 @@ export default function Home() {
       <section className="path-section" id="caminho">
         <div className="section-intro">
           <p className="eyebrow gold">UM CAMINHO DE SENTIDO</p>
-          <h2>Espiritualidade que<br />se torna presença.</h2>
-          <p>Estas meditações nascem do diálogo respeitoso entre Logoterapia e tradições afro-brasileiras. Ancestralidade, axé, egbé, corporeidade e natureza tornam-se caminhos de responsabilidade e sentido.</p>
+          <h2>Reflexão que<br />se torna presença.</h2>
+          <p>Estas meditações nascem do diálogo entre Logoterapia e experiência humana. Memória, vitalidade, pertencimento, corporeidade e natureza tornam-se caminhos de responsabilidade e sentido.</p>
         </div>
         <div className="pillars">
-          <article><span>01</span><h3>Honrar a ancestralidade</h3><p>Reconhecer a continuidade entre passado, presente e futuro como fonte de responsabilidade.</p></article>
-          <article><span>02</span><h3>Cultivar e repartir o axé</h3><p>Identificar o que fortalece a vida e orientar essa força para valores e propósitos.</p></article>
-          <article><span>03</span><h3>Pertencer ao egbé</h3><p>Realizar a própria singularidade no cuidado, na reciprocidade e no serviço à comunidade.</p></article>
+          <article><span>01</span><h3>Honrar a própria história</h3><p>Reconhecer a continuidade entre passado, presente e futuro como fonte de responsabilidade.</p></article>
+          <article><span>02</span><h3>Cultivar a vitalidade</h3><p>Identificar o que fortalece a vida e orientar essa força para valores e propósitos.</p></article>
+          <article><span>03</span><h3>Viver o pertencimento</h3><p>Realizar a própria singularidade no cuidado, na reciprocidade e no serviço à comunidade.</p></article>
         </div>
       </section>
 
@@ -247,15 +248,38 @@ export default function Home() {
         <div>
           <p className="eyebrow gold">SOBRE O AUTOR</p>
           <h2>Dr. Eduardo D’Angelo Mimessi</h2>
-          <p>Médico psiquiatra, professor e autor. Dedica-se ao encontro entre saúde mental, espiritualidade e busca de sentido, valorizando o diálogo respeitoso entre conhecimento, tradição e experiência humana.</p>
+          <p>Médico, professor e autor. Dedica-se ao encontro entre saúde mental e busca de sentido, valorizando o diálogo respeitoso entre conhecimento e experiência humana.</p>
           <p className="author-note">Vida e Sentido nasce como um espaço de pausa, reflexão e cuidado — para que a sabedoria recebida se transforme em presença no mundo.</p>
+          <p className="created-by">Idealizado e criado por <strong>Dr. Eduardo D’Angelo Mimessi</strong> — CRM-SP 121.217.</p>
+        </div>
+      </section>
+
+      <section className="clinic-contact" id="contato">
+        <div className="clinic-intro">
+          <p className="eyebrow gold">CLÍNICA MIMESSI</p>
+          <h2>Quer saber mais?</h2>
+          <p>Para conhecer o trabalho do Dr. Eduardo e os atendimentos em saúde mental, entre em contato com a Clínica Mimessi.</p>
+          <p className="clinic-signature">Ciência • Cuidado • Sentido</p>
+        </div>
+        <div className="clinic-details">
+          <div className="clinic-links">
+            <a className="contact-primary" href="https://wa.me/551234244999" target="_blank" rel="noreferrer">Falar pelo WhatsApp <span aria-hidden="true">↗</span></a>
+            <a href="https://clinicamimessi.com.br" target="_blank" rel="noreferrer">Site oficial <span aria-hidden="true">↗</span></a>
+            <a href="https://www.instagram.com/clinicamimessi/" target="_blank" rel="noreferrer">Instagram @clinicamimessi <span aria-hidden="true">↗</span></a>
+            <a href="mailto:clinicamimessi@gmail.com">Enviar e-mail <span aria-hidden="true">↗</span></a>
+          </div>
+          <div className="clinic-address">
+            <p><strong>Atendimento presencial</strong><br />Av. Tiradentes, 101 — Sala 23<br />Jardim das Nações, Taubaté — SP</p>
+            <p><strong>Atendimento online</strong><br />Para todo o Brasil</p>
+            <p><strong>Telefone</strong><br />(12) 3424-4999</p>
+          </div>
         </div>
       </section>
 
       <footer>
         <a className="brand footer-brand" href="#inicio"><span className="brand-mark">VS</span><span><strong>Vida e Sentido</strong><small>Sabedoria para o caminho</small></span></a>
-        <p>Devocional diário • Reflexões para uma vida com propósito</p>
-        <p>© {new Date().getFullYear()} Eduardo D’Angelo Mimessi</p>
+        <p>Uma criação do Dr. Eduardo D’Angelo Mimessi</p>
+        <p>© {new Date().getFullYear()} Vida e Sentido • Todos os direitos reservados</p>
       </footer>
     </main>
   );
