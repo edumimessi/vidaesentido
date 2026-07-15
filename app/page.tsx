@@ -9,6 +9,8 @@ type Meditation = {
   reflection: string[];
   practice: string;
   prayer: string;
+  meditation?: string;
+  question?: string;
 };
 
 const meditations: Meditation[] = [
@@ -23,6 +25,8 @@ const meditations: Meditation[] = [
     ],
     practice: "Recorde uma pessoa de sua família ou comunidade cuja vida lhe ensinou coragem. Escreva o ensinamento recebido e escolha uma forma concreta de transmiti-lo adiante.",
     prayer: "Que a memória dos que vieram antes fortaleça meus passos. Que eu honre minhas raízes sem ficar preso ao passado e transforme a herança recebida em cuidado para os que virão.",
+    meditation: "Respire lentamente e recorde uma presença que ajudou a formar quem você é. Sem idealizar o passado, reconheça o valor recebido e pergunte como ele pode ganhar uma forma nova em suas escolhas de hoje.",
+    question: "Qual herança humana desejo transformar em atitude concreta?",
   },
   {
     title: "A força que põe a vida em movimento",
@@ -35,6 +39,8 @@ const meditations: Meditation[] = [
     ],
     practice: "Faça um pequeno mapa de sua vitalidade: anote três pessoas, lugares ou atividades que renovam sua força e uma situação que a drena. Escolha hoje uma ação para nutrir o que lhe dá vida.",
     prayer: "Que eu reconheça, preserve e compartilhe a força que sustenta a vida. Que ela encontre direção no serviço, na verdade e no bem que posso realizar.",
+    meditation: "Perceba o movimento da respiração e observe, sem julgamento, onde sua energia está sendo investida. Imagine essa força se organizando ao redor de um propósito possível para este dia.",
+    question: "O que merece receber o melhor da minha energia hoje?",
   },
   {
     title: "Pertencimento: eu sou porque nós somos",
@@ -47,6 +53,8 @@ const meditations: Meditation[] = [
     ],
     practice: "Nomeie suas comunidades de pertencimento. Pergunte-se: o que recebo delas e qual contribuição somente eu posso oferecer neste momento? Realize um gesto concreto de reciprocidade.",
     prayer: "Que eu encontre meu lugar sem me colocar acima de ninguém. Ensina-me a receber com humildade, repartir com generosidade e fortalecer o chão comum.",
+    meditation: "Traga à mente três pessoas ou grupos aos quais você pertence. A cada respiração, reconheça algo que recebe e algo que pode oferecer, sem cobrança e sem apagar sua singularidade.",
+    question: "De que modo posso participar sem deixar de ser quem sou?",
   },
   {
     title: "A palavra que guarda e transmite",
@@ -59,6 +67,8 @@ const meditations: Meditation[] = [
     ],
     practice: "Escolha uma conversa importante e prepare-se para ela com três compromissos: ouvir até o fim, falar com clareza e preservar o respeito.",
     prayer: "Que minha voz seja firme sem ser áspera. Que eu saiba calar quando o silêncio protege e falar quando a verdade liberta.",
+    meditation: "Permaneça alguns instantes em silêncio e escute os sons ao redor. Depois, perceba a palavra que precisa ser dita e a palavra que precisa ser evitada para que o encontro preserve a dignidade de todos.",
+    question: "Minha próxima palavra servirá à verdade e ao cuidado?",
   },
   {
     title: "O corpo também conhece caminhos",
@@ -71,6 +81,8 @@ const meditations: Meditation[] = [
     ],
     practice: "Faça alguns minutos de respiração e movimento consciente. Observe onde há tensão e vitalidade. Depois, escolha um valor importante e pergunte: que gesto do meu corpo pode expressá-lo hoje?",
     prayer: "Que meu corpo seja presença, instrumento de cuidado e morada de dignidade. Ensina-me a respeitar seus limites e a colocá-lo a serviço do que tem sentido.",
+    meditation: "Faça uma varredura tranquila do corpo, dos pés à cabeça. Observe tensão, cansaço e vitalidade sem tentar corrigir tudo. Escolha um gesto corporal simples que expresse respeito por sua vida.",
+    question: "Que limite ou necessidade meu corpo está tentando comunicar?",
   },
   {
     title: "Circularidade: o tempo que retorna e ensina",
@@ -83,6 +95,8 @@ const meditations: Meditation[] = [
     ],
     practice: "Recorde uma situação que parece repetir-se em sua vida. Pergunte: o que ela ainda tenta me ensinar? Que resposta diferente e responsável posso oferecer desta vez?",
     prayer: "Que eu acolha os ciclos sem me tornar prisioneiro deles. Dá-me memória para aprender, liberdade para escolher e coragem para renovar o caminho.",
+    meditation: "Observe uma situação recorrente como se a enxergasse de alguns passos de distância. Separe o que aconteceu da resposta que você ainda pode escolher e visualize uma atitude nova, pequena e responsável.",
+    question: "O que posso fazer diferente quando essa situação voltar?",
   },
   {
     title: "Natureza: presença e sentido",
@@ -95,6 +109,106 @@ const meditations: Meditation[] = [
     ],
     practice: "Aproxime-se hoje de um elemento da natureza com atenção: uma árvore, água, terra, vento ou luz. Contemple sem pressa e realize um pequeno gesto concreto de preservação.",
     prayer: "Que eu não trate como objeto aquilo que sustenta a vida. Ensina-me a transformar admiração em cuidado e responsabilidade.",
+    meditation: "Contemple por alguns minutos um elemento natural próximo — luz, vento, água, planta ou céu. Deixe de analisá-lo e apenas receba sua presença, percebendo que você também participa dessa realidade viva.",
+    question: "Que forma de cuidado pode nascer daquilo que hoje admiro?",
+  },
+  {
+    title: "A liberdade que permanece",
+    theme: "Liberdade de atitude",
+    quote: "Nem tudo depende de mim; minha resposta, porém, ainda pode carregar sentido.",
+    reflection: [
+      "A liberdade humana não significa controlar todas as circunstâncias. Há perdas, limites, imprevistos e decisões alheias que não se submetem à nossa vontade.",
+      "A Logoterapia destaca uma liberdade interior: a possibilidade de tomar posição diante do que acontece. Essa margem pode ser pequena, mas nela vivem a dignidade, a responsabilidade e a direção que damos ao próximo passo.",
+      "Escolher uma atitude não é negar a dor nem fingir otimismo. É reconhecer honestamente a realidade e procurar a resposta mais humana que ainda está ao nosso alcance.",
+    ],
+    practice: "Divida uma folha em duas partes: o que não depende de mim e o que ainda posso escolher. Concentre sua energia somente na segunda parte e realize uma ação possível.",
+    prayer: "Que eu reconheça os limites sem entregar a eles toda a minha liberdade. Que minha resposta de hoje preserve dignidade, verdade e coragem.",
+    meditation: "Nomeie mentalmente aquilo que você não controla e solte o ar devagar. Ao inspirar, volte-se para sua margem de escolha. Repita: qual é a resposta mais responsável que posso oferecer agora?",
+    question: "Qual escolha continua sendo minha, mesmo nesta circunstância?",
+  },
+  {
+    title: "A vida pergunta, eu respondo",
+    theme: "Responsabilidade",
+    quote: "O sentido se revela quando deixamos de exigir respostas e começamos a responder à vida.",
+    reflection: [
+      "Em momentos de incerteza, é comum perguntar repetidamente o que a vida deveria nos oferecer. Frankl propõe uma inversão fecunda: perceber que, em cada situação, é a vida que nos dirige uma pergunta concreta.",
+      "Responder não exige uma solução grandiosa. Muitas vezes, a resposta está em cumprir uma tarefa, cuidar de alguém, reparar um erro, suportar um intervalo ou dizer a verdade com respeito.",
+      "A responsabilidade torna o sentido cotidiano. Ela nos retira da espera passiva e devolve importância ao gesto que somente nós podemos realizar neste momento.",
+    ],
+    practice: "Complete a frase: “Hoje a vida me pede...”. Em seguida, transforme a resposta em uma ação específica, pequena e verificável.",
+    prayer: "Que eu escute a pergunta presente neste dia e responda com o melhor de minha consciência, sem adiar o bem que já posso realizar.",
+    meditation: "Acalme a respiração e imagine o dia diante de você. Sem procurar respostas perfeitas, permita que uma tarefa essencial apareça. Observe-a com seriedade e simplicidade.",
+    question: "Que resposta concreta este dia espera de mim?",
+  },
+  {
+    title: "Sair de si para encontrar-se",
+    theme: "Autotranscendência",
+    quote: "A realização amadurece quando a vida se dirige a uma causa ou a alguém além de nós mesmos.",
+    reflection: [
+      "Quanto mais a pessoa transforma a própria felicidade em obrigação, mais pode se sentir presa à vigilância de si mesma. A existência se amplia quando a atenção encontra algo valioso fora desse círculo.",
+      "Autotranscendência é a capacidade humana de orientar-se para uma pessoa amada, uma tarefa, uma obra, uma causa ou um valor. Não é abandono de si, mas uma maneira de não reduzir a vida às próprias sensações.",
+      "Quando servimos ao que importa, a identidade deixa de ser um projeto fechado e se torna relação, contribuição e presença.",
+    ],
+    practice: "Escolha alguém ou uma causa que mereça sua atenção. Faça um gesto útil sem esperar reconhecimento imediato e observe como muda sua relação com o próprio dia.",
+    prayer: "Que eu não fique encerrado em mim. Que minha presença alcance alguém, uma tarefa ou um valor que mereça cuidado.",
+    meditation: "Por alguns minutos, deixe de medir como você está se sentindo. Visualize uma pessoa ou causa importante e pergunte silenciosamente: de que presença ela necessita de mim?",
+    question: "Para quem ou para quê vale a pena dirigir minha atenção?",
+  },
+  {
+    title: "Criar, encontrar, posicionar-se",
+    theme: "Três caminhos de sentido",
+    quote: "O sentido pode ser realizado pelo que oferecemos, pelo que recebemos e pela atitude que escolhemos.",
+    reflection: [
+      "A Logoterapia descreve caminhos concretos para realizar sentido. Os valores criativos aparecem no que fazemos e oferecemos: trabalho, cuidado, criação e contribuição.",
+      "Os valores vivenciais surgem no que recebemos do encontro com alguém, da beleza, da natureza, da arte e do amor. Há momentos em que o essencial não é produzir, mas estar verdadeiramente presente.",
+      "Quando uma situação inevitável não pode ser modificada, permanecem os valores de atitude: a forma digna de posicionar-se diante do limite. Nenhum desses caminhos é superior; cada momento pede discernimento.",
+    ],
+    practice: "Escolha um caminho para hoje: criar algo útil, receber plenamente uma experiência valiosa ou adotar uma atitude digna diante de um limite inevitável.",
+    prayer: "Que eu reconheça o caminho de sentido aberto neste momento e tenha presença para percorrê-lo.",
+    meditation: "Respire três vezes com calma. Na primeira, pergunte o que pode oferecer. Na segunda, o que precisa receber com presença. Na terceira, qual atitude pode escolher diante do que não muda.",
+    question: "Hoje o sentido me chama a criar, encontrar ou posicionar-me?",
+  },
+  {
+    title: "Olhar-se de uma distância saudável",
+    theme: "Autodistanciamento",
+    quote: "Eu tenho pensamentos e emoções, mas não sou reduzido a nenhum deles.",
+    reflection: [
+      "Uma emoção intensa pode ocupar todo o campo da consciência e parecer definir quem somos. O autodistanciamento cria espaço entre a pessoa e aquilo que ela experimenta.",
+      "Esse espaço não elimina sentimentos. Ele permite observá-los, nomeá-los e reconhecer que são estados presentes, não sentenças definitivas sobre a identidade ou o futuro.",
+      "Ao dizer “estou percebendo ansiedade” em vez de “sou a ansiedade”, recuperamos a possibilidade de agir segundo valores, mesmo enquanto a emoção ainda está presente.",
+    ],
+    practice: "Quando uma emoção surgir, descreva-a com a frase: “Eu percebo em mim...”. Depois acrescente: “E, mesmo assim, posso escolher...”.",
+    prayer: "Que eu acolha o que sinto sem me confundir inteiramente com isso. Que entre a emoção e a ação exista um espaço de liberdade.",
+    meditation: "Observe pensamentos como acontecimentos que chegam e passam. Nomeie cada um brevemente — preocupação, lembrança, planejamento — e volte à respiração sem discutir com ele.",
+    question: "Que valor pode orientar minha ação, mesmo com esta emoção presente?",
+  },
+  {
+    title: "O futuro que me chama",
+    theme: "Esperança e tarefa futura",
+    quote: "Ter um para quê não apaga a dificuldade, mas oferece direção para atravessá-la.",
+    reflection: [
+      "A esperança madura não é garantia de que tudo acontecerá como desejamos. Ela nasce da percepção de que ainda existem tarefas, encontros e possibilidades que solicitam nossa presença.",
+      "Uma meta futura pode organizar forças dispersas. Não precisa ser grandiosa: uma conversa a realizar, alguém a acompanhar, um trabalho a concluir ou uma capacidade a desenvolver já pode abrir horizonte.",
+      "O futuro ganha consistência quando deixa de ser fantasia e começa a orientar o próximo passo possível no presente.",
+    ],
+    practice: "Escreva uma razão concreta para chegar ao fim desta semana. Embaixo, anote a menor ação que aproxima você dela nas próximas 24 horas.",
+    prayer: "Que eu reconheça o futuro que ainda solicita minha presença e caminhe até ele com paciência e fidelidade ao próximo passo.",
+    meditation: "Visualize um encontro, tarefa ou possibilidade futura que tenha valor real. Não imagine o resultado perfeito; apenas perceba a direção e o primeiro passo que pode ser dado.",
+    question: "Que possibilidade futura merece minha fidelidade hoje?",
+  },
+  {
+    title: "Dignidade diante do inevitável",
+    theme: "Valores de atitude",
+    quote: "Quando não posso mudar a situação, ainda posso cuidar da maneira como a atravesso.",
+    reflection: [
+      "Nem todo sofrimento pode ser evitado, mas nenhum sofrimento deve ser procurado ou romantizado. Quando há possibilidade de tratamento, proteção ou mudança, agir sobre a causa é parte da responsabilidade.",
+      "Somente diante do inevitável surge a pergunta sobre a atitude. Nesse território, coragem pode significar pedir ajuda, aceitar um limite, conservar gentileza, suportar um processo ou recusar que a dor destrua todos os valores.",
+      "A dignidade não exige heroísmo permanente. Ela pode aparecer na fidelidade humilde ao cuidado possível, um dia de cada vez.",
+    ],
+    practice: "Pergunte primeiro: isto pode ser mudado ou tratado? Se puder, busque ajuda e ação. Se não puder agora, escolha uma atitude que proteja sua dignidade durante a travessia.",
+    prayer: "Que eu tenha lucidez para mudar o que pode ser mudado, buscar ajuda quando necessário e preservar minha humanidade diante do inevitável.",
+    meditation: "Coloque os pés no chão e reconheça a realidade sem diminuí-la nem ampliá-la. Respire e escolha uma qualidade — coragem, paciência, firmeza ou gentileza — para acompanhar seu próximo passo.",
+    question: "Que atitude protege minha dignidade nesta travessia?",
   },
 ];
 
@@ -152,8 +266,9 @@ export default function Home() {
         </button>
         <nav id="main-nav" className={menuOpen ? "nav open" : "nav"} aria-label="Navegação principal">
           <a href="#meditacao" onClick={() => setMenuOpen(false)}>Meditação do dia</a>
+          <a href="#como-usar" onClick={() => setMenuOpen(false)}>Como meditar</a>
+          <a href="#leituras" onClick={() => setMenuOpen(false)}>Leituras</a>
           <a href="#caminho" onClick={() => setMenuOpen(false)}>O caminho</a>
-          <a href="#arquivo" onClick={() => setMenuOpen(false)}>Arquivo</a>
           <a href="#autor" onClick={() => setMenuOpen(false)}>Sobre o autor</a>
           <a href="#contato" onClick={() => setMenuOpen(false)}>Clínica Mimessi</a>
         </nav>
@@ -172,6 +287,20 @@ export default function Home() {
           <a className="primary-button" href="#meditacao">Ler a reflexão de hoje <span aria-hidden="true">↓</span></a>
         </div>
         <p className="hero-side-note">Memória • Presença • Comunidade</p>
+      </section>
+
+      <section className="how-to" id="como-usar">
+        <div className="how-to-heading">
+          <p className="eyebrow dark">UMA PAUSA COM SENTIDO</p>
+          <h2>Dez minutos para ler,<br />silenciar e escolher.</h2>
+          <p>Não é necessário esvaziar a mente. A proposta é criar espaço interior para compreender a experiência e responder ao dia com mais consciência.</p>
+        </div>
+        <div className="how-to-steps">
+          <article><span>01</span><h3>Chegue</h3><p>Sente-se de forma confortável, apoie os pés e faça três respirações lentas.</p></article>
+          <article><span>02</span><h3>Leia</h3><p>Percorra a reflexão sem pressa e observe qual ideia encontra sua vida hoje.</p></article>
+          <article><span>03</span><h3>Medite</h3><p>Siga a pausa guiada por cerca de cinco minutos, sem exigir uma sensação especial.</p></article>
+          <article><span>04</span><h3>Responda</h3><p>Registre a pergunta e escolha uma atitude pequena, concreta e possível.</p></article>
+        </div>
       </section>
 
       <section className="daily" id="meditacao">
@@ -195,6 +324,7 @@ export default function Home() {
           </aside>
           <div className="meditation-content">
             <h2>{meditation.title}</h2>
+            <span className="reflection-label">FRASE PARA MEDITAR</span>
             <blockquote>“{meditation.quote}”</blockquote>
             <div className="reflection-text">
               {meditation.reflection.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
@@ -203,13 +333,75 @@ export default function Home() {
               <span>PARA VIVER HOJE</span>
               <p>{meditation.practice}</p>
             </div>
+            <div className="guided-box">
+              <div className="guided-heading">
+                <span>PAUSA GUIADA</span>
+                <small>APROXIMADAMENTE 5 MINUTOS</small>
+              </div>
+              <ol>
+                <li>Apoie os pés, relaxe os ombros e faça três respirações lentas.</li>
+                <li>{meditation.meditation ?? "Permaneça alguns instantes com o tema da leitura e observe o que ele desperta, sem julgar ou apressar uma resposta."}</li>
+                <li>Quando a atenção se dispersar, reconheça isso com gentileza e volte ao movimento da respiração.</li>
+                <li>Antes de encerrar, escolha uma palavra ou atitude para acompanhar seu dia.</li>
+              </ol>
+            </div>
+            <div className="journal-box">
+              <span>PARA ESCREVER E APROFUNDAR</span>
+              <p>{meditation.question ?? "Que resposta mais consciente posso oferecer à vida neste momento?"}</p>
+            </div>
             <div className="prayer">
-              <span>PRECE</span>
+              <span>PALAVRA DE ENCERRAMENTO</span>
               <p>{meditation.prayer}</p>
             </div>
             <button className="share-button" onClick={shareMeditation}>{copied ? "Link copiado" : "Compartilhar esta reflexão"}</button>
           </div>
         </article>
+      </section>
+
+      <section className="reading-library" id="leituras">
+        <div className="library-heading">
+          <div>
+            <p className="eyebrow dark">BIBLIOTECA DE SENTIDO</p>
+            <h2>Escolha a leitura<br />que o seu dia pede.</h2>
+          </div>
+          <p>Quatorze caminhos inspirados na Logoterapia para momentos de decisão, cansaço, incerteza, relacionamento e renovação.</p>
+        </div>
+        <div className="reading-grid">
+          {meditations.map((item, index) => (
+            <button key={item.title} onClick={() => {
+              const currentIndex = (getDayOfYear(today) - 1) % meditations.length;
+              setOffset(index - currentIndex);
+              window.setTimeout(() => document.getElementById("meditacao")?.scrollIntoView({ behavior: "smooth" }), 0);
+            }}>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <small>{item.theme}</small>
+              <strong>{item.title}</strong>
+              <b aria-hidden="true">Ler →</b>
+            </button>
+          ))}
+        </div>
+        <div className="source-quotes">
+          <p className="eyebrow dark">PALAVRAS DE REFERÊNCIA</p>
+          <div>
+            <blockquote>
+              “O que importa não é o que esperamos da vida, mas o que a vida espera de nós.”
+              <cite>Viktor E. Frankl, citado em <em>Logoterapia e Tradições Espirituais</em>, de Eduardo D’Angelo Mimessi.</cite>
+            </blockquote>
+            <blockquote>
+              “O ser humano aponta para além de si mesmo.”
+              <cite>Viktor E. Frankl, citado em <em>Logoterapia e Tradições Espirituais</em>, de Eduardo D’Angelo Mimessi.</cite>
+            </blockquote>
+            <blockquote>
+              “Um convite a uma vida mais consciente, mais responsável e mais significativa.”
+              <cite>Eduardo D’Angelo Mimessi, <em>Logoterapia e Tradições Espirituais</em>.</cite>
+            </blockquote>
+          </div>
+        </div>
+        <p className="library-note">As reflexões são conteúdos autorais inspirados em conceitos da Logoterapia de Viktor Frankl. Destinam-se à educação e ao cuidado cotidiano e não substituem avaliação ou tratamento profissional.</p>
+        <div className="references">
+          <strong>Referências essenciais</strong>
+          <p>FRANKL, Viktor E. <em>Em Busca de Sentido</em>. Sinodal/Vozes, 2019. • FRANKL, Viktor E. <em>Psicoterapia e Sentido da Vida</em>. Quadrante, 2016. • MIMESSI, Eduardo D’Angelo. <em>Logoterapia e Tradições Espirituais</em>.</p>
+        </div>
       </section>
 
       <section className="path-section" id="caminho">
